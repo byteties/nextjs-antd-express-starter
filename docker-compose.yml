@@ -10,5 +10,5 @@ services:
     volumes:
       - .:/usr/src/app
     ports:
-      - '3000:3000'
+      - '3001:3001'
     command: ['/bin/sh', '-c', 'yarn && yarn dev']
